@@ -1,33 +1,26 @@
 {
   "name": "@pinyin/base-styles",
-  "version": "0.0.1",
-  "description": "A list view with animation & virtualization support.",
-  "private": true,
+  "version": "0.0.3",
+  "description": "Reset everything",
   "main": "index.css",
   "files": [
-    "index.css"
+    "index.css",
+    "normalize.css"
   ],
   "sideEffects": false,
-  "scripts": {
-    "prepublishOnly": "rm -rf dist && npx tsc",
-    "test": "npx jest"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pinyin/base-styles.git"
   },
   "keywords": [
-    "react",
-    "list component",
-    "virtual"
+    "css",
+    "reset"
   ],
   "author": "Bo Bao <bob432091@gmail.com> (https://github.com/pinyin)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/pinyin/base-styles/issues"
   },
-  "homepage": "https://github.com/pinyin/base-styles#readme",
-  "dependencies": {
-    "normalize.css": "^8.0.0"
-  }
+  "homepage": "https://github.com/pinyin/base-styles#readme"
 }
